@@ -11,22 +11,21 @@
     <script>
      
 // jsonda olan bir objecti jse getirib datalarini oxutmaq
-    //     let obj,takeJSON;
-    //     takeJSON='{"firstName":"Mehemmed","lastName":"Bayramov","age":"20"}';
-    //     obj=JSON.parse(takeJSON);
-    //     document.querySelector(".json").innerHTML= "Ad : " + obj.firstName + "<br>" + "Soyad : " + obj.lastName + "<br>" + "Yas :   " + obj.age;
+        let obj,takeJSON;
+        takeJSON='{"firstName":"Mehemmed","lastName":"Bayramov","age":"20"}';
+        obj=JSON.parse(takeJSON);
+        document.querySelector(".json").innerHTML= "Ad : " + obj.firstName + "<br>" + "Soyad : " + obj.lastName + "<br>" + "Yas :   " + obj.age;
 
 
 
 
     // javascriptde yaradilmis objectleri json vasitesi ile localstoragede depolayib sonra tekrardan cekib istifade etmek.
-    // let obj,json,sendJSON,txt,storeObj;
-    // obj={firstName:"Mehemmed",lastName:"Bayramov"};
-    // json=JSON.stringify(obj);
-    // localStorage.setItem("storage",json);
-    // txt= localStorage.getItem("storage")
-    // storeObj=JSON.parse(txt)
-    // document.querySelector(".json").innerHTML="Ad : " + storeObj.firstName +"<br>" + "Soyad : " + storeObj.lastName;
+    let obj,json,sendJSON,txt,storeObj;
+    json=JSON.stringify(obj);
+    localStorage.setItem("storage",json);
+    txt= localStorage.getItem("storage")
+    storeObj=JSON.parse(txt)
+    document.querySelector(".json").innerHTML="Ad : " + storeObj.firstName +"<br>" + "Soyad : " + storeObj.lastName;
 
  </script>
 </body>
