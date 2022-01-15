@@ -1,3 +1,57 @@
 .App {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
   text-align: center;
+  background-image: url(./7T9364v.gif);
+ 
+ 
+}
+.login{
+ margin-top: 10%;
+ box-sizing: border-box;
+ padding-top: 6%;
+ width: 450px;
+ height: 350px;
+ background-color: rgba(22, 12, 77, 0.74);
+ border-radius: 20px;
+}
+
+input{
+ width: 250px;
+ padding: 10px 8px;
+ border: 1px solid rgb(45, 47, 189);
+ border-radius: 15px;
+ font-size: 13px;
+ outline: none;
+ transition: 0.6s;
+ 
+}:focus{
+ transition: 0.6s;
+ width: 280px;
+ border: 2px solid rgb(24, 201, 8);
+}
+p{
+ margin-bottom: 10px;
+ font-size: 14px;
+ font-weight: 600;
+}
+
+.submit{
+ width: 120px;
+ height: 40px;
+ background-color: rgb(18, 170, 12);
+ border: none;
+ border-radius: 5px;
+ font-size: 14px;
+ font-weight: 700;
+ cursor: pointer;
+ transition: 0.5s;
+ margin-top: 20px;
+ color: wheat;
+}
+.submit:hover{
+ transition: 0.5s;
+ background-color: rgb(24, 201, 8);
 }
